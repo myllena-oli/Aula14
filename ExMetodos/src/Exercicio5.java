@@ -15,7 +15,7 @@ public class Exercicio5 {
         double salarioFixo = ler.nextDouble();
         System.out.println("Qual o seu total de vendas, no mês, em dinheiro? ");
         double valorVendas = ler.nextDouble();
-        double comissao = valorVendas + (valorVendas * 15 / 100);
+        double comissao = valorVendas * ((double) 15 / 100);
 
         System.out.println("Nome: " + nomeVendedor);
         System.out.printf("Salário Fixo: R$" + "%.2f%n", salarioFixo);
